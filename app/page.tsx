@@ -77,7 +77,7 @@ export default function Home() {
 
         <div className="hero-visual">
           <div className="visual-label">Design → Make → Test</div>
-          <img src="/paper/graphical-abstract.png" alt="PocketGPT graphical abstract showing conditioned generation and experimental validation" />
+          <img src="paper/graphical-abstract.png" alt="PocketGPT graphical abstract showing conditioned generation and experimental validation" />
           <div className="result-badge">
             <strong>4.88 nM</strong>
             <span>PARP1 binding affinity</span>
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
 
         <figure className="paper-figure framework-figure">
-          <img src="/paper/framework.png" alt="PocketGPT framework and modality-aware conditioning architecture" />
+          <img src="paper/framework.png" alt="PocketGPT framework and modality-aware conditioning architecture" />
           <figcaption><span>Figure 1</span> One Transformer backbone, composable conditioning settings.</figcaption>
         </figure>
 
@@ -170,7 +170,7 @@ export default function Home() {
         </div>
 
         <figure className="paper-figure">
-          <img src="/paper/parp1-campaign.png" alt="PARP1 design campaign, candidate funnel and biochemical assay results" />
+          <img src="paper/parp1-campaign.png" alt="PARP1 design campaign, candidate funnel and biochemical assay results" />
           <figcaption><span>Figure 6</span> Semantic-prior-driven design and experimental validation of PARP1 inhibitors.</figcaption>
         </figure>
       </section>
@@ -187,7 +187,7 @@ export default function Home() {
           </div>
         </div>
         <figure className="paper-figure validation-figure">
-          <img src="/paper/compound2-validation.png" alt="Compound 2 biophysical, cellular and preliminary safety validation" />
+          <img src="paper/compound2-validation.png" alt="Compound 2 biophysical, cellular and preliminary safety validation" />
           <figcaption><span>Figure 7</span> Target engagement and preliminary developability.</figcaption>
         </figure>
       </section>
