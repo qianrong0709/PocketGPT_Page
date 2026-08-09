@@ -64,10 +64,7 @@ export default function Home() {
         </div>
         <div className="abstract-body">
           <p>
-            Structure-based molecular generation has become increasingly important in drug discovery, yet molecules designed only for geometric compatibility may still fail to satisfy the physicochemical and functional constraints required for pharmacological development.
-          </p>
-          <p>
-            PocketGPT formulates molecular design as conditional chemical-language generation. Protein pocket information is combined with property targets, fragment priors, and protein–ligand interaction fingerprints so that structural compatibility and medicinal-chemistry requirements influence the molecule throughout autoregressive generation. In a prospective PARP1 campaign, the framework produced a novel inhibitor with a measured binding affinity of 4.88 nM and favorable preliminary tolerability in mice.
+            Structure-based molecular generation has become increasingly important in drug discovery, yet molecules designed only for geometric compatibility may still fail to satisfy the physicochemical and functional constraints required for pharmacological development. PocketGPT formulates molecular design as conditional chemical-language generation. Protein pocket information is combined with property targets, fragment priors, and protein–ligand interaction fingerprints so that structural compatibility and medicinal-chemistry requirements influence the molecule throughout autoregressive generation. In a prospective PARP1 campaign, the framework produced a novel inhibitor with a measured binding affinity of 4.88 nM and favorable preliminary tolerability in mice.
           </p>
         </div>
       </section>
@@ -175,10 +172,7 @@ export default function Home() {
           </div>
           <div className="conclusion-body">
             <p>
-              PocketGPT demonstrates that binding-relevant structural and functional semantics can be incorporated directly into molecular generation without explicit 3D ligand construction. The prospective PARP1 campaign connects sequence-level generation to biochemical, cellular, and in vivo evaluation.
-            </p>
-            <p>
-              Strong multi-constraint control can reduce novelty and chemical-space exploration, so PocketGPT should be viewed as screening-aware rather than screening-free generation. Its value lies in enriching candidates that already reflect user-specified structural and medicinal-chemistry priorities before downstream screening.
+              PocketGPT demonstrates that binding-relevant structural and functional semantics can be incorporated directly into molecular generation without explicit 3D ligand construction. The prospective PARP1 campaign connects sequence-level generation to biochemical, cellular, and in vivo evaluation. Strong multi-constraint control can reduce novelty and chemical-space exploration, so PocketGPT should be viewed as screening-aware rather than screening-free generation. Its value lies in enriching candidates that already reflect user-specified structural and medicinal-chemistry priorities before downstream screening.
             </p>
           </div>
         </div>
